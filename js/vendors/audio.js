@@ -30,7 +30,7 @@ www.9lessons.info
             }), this._player = t("<audio />").data("audIndex", 0), this._audio = this._player.get(0), void this.create()) : !1
         },
         create: function() {
-            this.opts.autoPlay && this._player.attr("autoplay", !0), this.opts.buffer && this._player.attr("preload", "auto"), this._audio.volume = this.volumeRange.val() || this.opts.audioVolume, this.shuffleState(), this.source(), 0 == t("audio").length && t("body").append(this._player), this.getIndex() <= 0 && (this.buttonPrevious = !1, this.prevBut.addClass("disabled")), this.attachEvents()
+            this.opts.autoPlay && this._player.attr("autoplay", !0), this._player.attr("preload", this.opts.buffer ? "auto" : "none"), this._audio.volume = this.volumeRange.val() || this.opts.audioVolume, this.shuffleState(), this.source(), 0 == t("audio").length && t("body").append(this._player), this.getIndex() <= 0 && (this.buttonPrevious = !1, this.prevBut.addClass("disabled")), this.attachEvents()
         },
         shuffleState: function() {
             var t = this.getShuffleStatus();

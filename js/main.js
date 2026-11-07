@@ -90,6 +90,7 @@ $(document).ready(function() {
     // AUDIO PLAYER
     $("#playListContainer").audioControls({
         autoPlay: false,
+        buffer: false,
         timer: 'increment',
         onAudioChange: function(response) {
             $('.songPlay').text(response.title + ' ...');

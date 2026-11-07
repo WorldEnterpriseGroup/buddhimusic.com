@@ -31,7 +31,7 @@ Author:
 	
 -------------------------------------------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,700,900);
+/* Roboto is loaded with a <link> in each page head (with display=swap) */
 
 /* 1. GLOBAL STYLES */
 
@@ -170,7 +170,7 @@ header {
 }
 
 .page_header {
-	background: url(../images/head/01.jpg) no-repeat center top;
+	background: url(../images/head/01.webp) no-repeat center top;
 	padding: 179px 0 180px;
 }
 
@@ -1609,7 +1609,7 @@ blockquote cite {
 }
 
 #nava-artist .page_header {
-	background: url(../images/head/02.jpg) no-repeat center top;
+	background: url(../images/head/02.webp) no-repeat center top;
 }
 
 #nava-artist .page_header h2 {
@@ -1738,7 +1738,7 @@ blockquote cite {
 }
 
 #nava-band .page_header {
-	background: url(../images/head/03.jpg) no-repeat center top;
+	background: url(../images/head/03.webp) no-repeat center top;
 }
 
 #nava-band .page_header h2 {
@@ -1828,7 +1828,7 @@ blockquote cite {
 }
 
 #nava-band .podcast-single {
-	background: url(../images/bg/01.jpg) no-repeat center top;
+	background: url(../images/bg/01.webp) no-repeat center top;
 	background-size: cover;
 }
 
@@ -1848,7 +1848,7 @@ blockquote cite {
 }
 
 #nava-band .single-album {
-	background: url(../images/bg/02.jpg) no-repeat center top;
+	background: url(../images/bg/02.webp) no-repeat center top;
 	background-size: cover;
 }
 
@@ -1862,7 +1862,7 @@ blockquote cite {
 }
 
 #nava-radio .page_header {
-	background: url(../images/head/04.jpg) no-repeat center top;
+	background: url(../images/head/04.webp) no-repeat center top;
 }
 
 #nava-radio .page_header h2 {
@@ -1980,7 +1980,7 @@ blockquote cite {
 }
 
 #nava-video .page_header {
-	background: url(../images/head/04.jpg) no-repeat center top;
+	background: url(../images/head/04.webp) no-repeat center top;
 }
 
 #nava-video .page_header h2 {
@@ -2188,13 +2188,13 @@ blockquote cite {
 
 .home-info {
 	padding-top: 90px;
-	background: url(../images/home/01.jpg) no-repeat center top;
+	background: url(../images/home/01.webp) no-repeat center top;
 	background-size: cover;
 }
 
 .home-info-radio {
 	padding-top: 90px;
-	background: url(../images/bg/04.jpg) no-repeat center top;
+	background: url(../images/bg/04.webp) no-repeat center top;
 	background-size: cover;
 }
 
@@ -2326,7 +2326,7 @@ blockquote cite {
 }
 
 .video-home {
-	background: url(../images/bg/03.jpg) no-repeat center top;
+	background: url(../images/bg/03.webp) no-repeat center top;
 	display: table;
 	width: 100%;
 	padding: 406px 0 393px;
@@ -2435,7 +2435,7 @@ header.no-bg {
 }
 
 .home-testimonials {
-	background: url(../images/bg/05.jpg) no-repeat center;
+	background: url(../images/bg/05.webp) no-repeat center;
 	background-size: cover;
 	padding-top: 70px;
 }
@@ -2622,7 +2622,7 @@ header.no-bg {
 }
 
 .radio-home {
-	background: url(../images/bg/06.jpg) no-repeat center top;
+	background: url(../images/bg/06.webp) no-repeat center top;
 	display: table;
 	width: 100%;
 	padding: 301px 0;
@@ -3006,7 +3006,7 @@ input[type="range"] {
 
 .artist-home {
 	position: relative;
-	background: url(../images/bg/07.jpg) no-repeat center;
+	background: url(../images/bg/07.webp) no-repeat center;
 	background-size: cover;
 	padding: 100px 0;
      height:100vh;
@@ -3196,7 +3196,7 @@ input[type="range"] {
 }
 
 .home-artist-video {
-	background: url(../images/bg/08.jpg) no-repeat center;
+	background: url(../images/bg/08.webp) no-repeat center;
 	background-size: cover;
 	padding: 150px 0 120px;
 }
@@ -3264,7 +3264,7 @@ input[type="range"] {
 }
 
 .home-event-info {
-	background: url(../images/bg/09.jpg) no-repeat center bottom;
+	background: url(../images/bg/09.webp) no-repeat center bottom;
 	background-size: cover;
 	padding: 150px 0 0;
 }
@@ -3336,7 +3336,7 @@ input[type="range"] {
 }
 
 .home-event-intro {
-	background: url(../images/bg/010.jpg) no-repeat center bottom;
+	background: url(../images/bg/010.webp) no-repeat center bottom;
 	background-size: cover;
 	padding: 340px 0 330px;
 	position: relative;
@@ -3370,7 +3370,7 @@ input[type="range"] {
 }
 
 #nava-band .home-band-single-album {
-	background: url(../images/bg/011.jpg) no-repeat center top;
+	background: url(../images/bg/011.webp) no-repeat center top;
 	background-size: cover;
 	padding: 150px 0 130px;
 }
@@ -3413,19 +3413,19 @@ h4.custom-head {
 }
 
 .home-band-artists {
-	background: url(../images/bg/011.jpg) no-repeat center bottom;
+	background: url(../images/bg/011.webp) no-repeat center bottom;
 	background-size: cover;
 	padding: 150px 0 150px;
 }
 
 .home-band-video {
-	background: url(../images/bg/012.jpg) no-repeat center;
+	background: url(../images/bg/012.webp) no-repeat center;
 	background-size: cover;
 	padding: 150px 0 120px;
 }
 
 .home-band-news {
-	background: url(../images/bg/013.jpg) no-repeat center;
+	background: url(../images/bg/013.webp) no-repeat center;
 	background-size: cover;
 	padding: 150px 0 120px;
 }
@@ -3544,7 +3544,7 @@ h4.custom-head {
 }
 
 #nava-video .page_header {
-	background: url(../images/head/05.jpg) no-repeat center top;
+	background: url(../images/head/05.webp) no-repeat center top;
 }
 
 #nava-video .error-content {
@@ -3694,7 +3694,7 @@ h4.custom-head {
 }
 
 .music-home-intro {
-	background: url(../images/bg/014.jpg) no-repeat center top;
+	background: url(../images/bg/014.webp) no-repeat center top;
 	background-size: cover;
 	padding: 235px 0 0;
 }
@@ -3754,7 +3754,7 @@ h4.custom-head {
 
 .home-info-music {
 	overflow: hidden;
-	background: url(../images/bg/015.jpg) no-repeat center top;
+	background: url(../images/bg/015.webp) no-repeat center top;
 	background-size: cover;
 	padding-top: 98px;
 }
@@ -3777,7 +3777,7 @@ h4.custom-head {
 }
 
 .programs-list-music {
-	background: url(../images/bg/016.jpg) no-repeat center top;
+	background: url(../images/bg/016.webp) no-repeat center top;
 	background-size: cover;
 	padding-top: 150px;
 }
